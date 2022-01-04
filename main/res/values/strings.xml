@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Register and Login</string>
+    <string name="Title">Register or Login</string>
+    <string name="button1">Register</string>
+    <string name="button2">Login</string>
+    <string name="register">"Register"</string>
+    <string name="firstname">"First Name"</string>
+    <string name="lastname">"Last Name"</string>
+    <string name="email">"Email"</string>
+    <string name="birth">"Birthday MM/DD/YYYY"</string>
+    <string name="password">"Password"</string>
+    <string name="login">"Login"</string>
+</resources>

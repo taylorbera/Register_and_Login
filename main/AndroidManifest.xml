@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.registerandlogin">
+
+<application
+    android:allowBackup="true"
+    android:icon="@drawable/olive_branch"
+    android:label="@string/app_name"
+    android:roundIcon="@drawable/olive_branch"
+    android:supportsRtl="true"
+    android:theme="@style/AppTheme">
+    <activity android:name=".register"></activity>
+    <activity android:name=".activity_splash">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+    <activity android:name=".activity_login" />
+    <activity android:name=".activity_register" />
+    <activity android:name=".MainActivity"></activity>
+</application>
+
+</manifest>
